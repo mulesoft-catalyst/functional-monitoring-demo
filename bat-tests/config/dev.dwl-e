@@ -1,0 +1,9 @@
+%dw 2.0
+---
+{
+  base64: "NjEyZjE5YjFhNWY0NDI3M2I5MTExYTZiMzliMzllY2M6QTEwNDhkOUVFNmE1NDlhRUI5OTYyYzdlMWNiZDgyZTI=",
+  url: 'https://afm-demo-flights-api-dev-v1.au-s1.cloudhub.io',
+  client_id: "0oa4jwn4ikGKjO4C2357",
+  client_secret: "iorw_WwTP5XCPoJVT0j8_G7ovMHOmTGR8fD0nWXG"
+  env:'Development'
+}
