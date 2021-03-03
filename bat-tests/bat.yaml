@@ -1,9 +1,0 @@
-suite:
-  name: afm-demo-flights-api
-files:
- -
-  file: tests/afmDemoFlights.dwl
-reporters:
- -
-  type: HTML
-  outFile: /tmp/index.html
