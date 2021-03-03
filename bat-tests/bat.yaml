@@ -1,0 +1,20 @@
+suite:
+  name: 'afm-demo-flights-api'
+  runnerVersion: "LATEST"
+files:
+ -
+  file: "tests/afmDemoFlights.dwl"
+  softFail: false
+reporters:
+ -
+  type: "HTML"
+  outFile: "/tmp/index.html"
+secrets:
+  appClientSecretAlias:
+    secretId: "13fa3545-f10d-4c6f-b3f6-1f5b087c5ddc"
+  oauthClientIdAlias:
+    secretId: "f9210e3b-0128-4c23-b07c-95823000c097"
+  oauthClientSecretAlias:
+    secretId: "ff81b040-0f5b-4a42-9a7f-66fcd1647eea"
+  appClientIdAlias:
+    secretId: "83466322-e1b2-4fc9-95aa-25e8c24f461b"
