@@ -1,0 +1,31 @@
+http:
+  port: "8081"
+https:
+  port: "8082"
+
+api:
+  id: "16366920"
+  
+tls:
+  path: "security/keystore.jks"
+  alias: "[KEYSTORE ALIAS]"
+  password: "[KEYSTORE PASSWORD]"
+  
+american:
+  host: "training4-american-api.cloudhub.io"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  client_id: "[CLIENT ID]"
+  client_secret: "[CLIENT SECRET]"
+
+training:
+  host: "ilt.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+
+delta:
+  wsdl: "http://ilt.learn.mulesoft.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "TicketServicePort"
