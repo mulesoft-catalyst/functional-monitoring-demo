@@ -20,12 +20,12 @@ american:
   client_secret: "[CLIENT SECRET]"
 
 training:
-  host: "ilt.learn.mulesoft.com"
+  host: "mu.mule-training.com"
   port: "80"
   basepath: "/"
   protocol: "HTTP"
 
 delta:
-  wsdl: "http://ilt.learn.mulesoft.com/delta?wsdl"
+  wsdl: "http://mu.mule-training.com/delta?wsdl"
   service: "TicketServiceService"
   port: "TicketServicePort"
